@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "~=2.0.0"
+python-dotenv = "~=0.18.0"
+flask-wtf = "~=0.15.0"
+
+[dev-packages]
+bandit = "*"
+black = "*"
+coverage = "*"
+isort = "*"
+monkeytype = "*"
+pylint = "*"
+pyre-check = "*"
+wily = "*"
+
+[pipenv]
+allow_prereleases = true
+
+[requires]
+python_version = "3.9"
