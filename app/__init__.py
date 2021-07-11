@@ -36,7 +36,7 @@ if not app.debug:
             mailhost=(app.config["MAIL_SERVER"], app.config["MAIL_PORT"]),
             fromaddr="no-reply@" + app.config["MAIL_SERVER"],
             toaddrs=app.config["ADMINS"],
-            subject="Microblog Failure",
+            subject="DevLog Failure",
             credentials=auth,
             secure=secure,
         )
@@ -45,12 +45,12 @@ if not app.debug:
 
     if not os.path.exists("logs"):
         os.mkdir("logs")
-    file_handler = RotatingFileHandler("logs/microblog.log", maxBytes=10240, backupCount=10)
+    file_handler = RotatingFileHandler("logs/DevLog.log", maxBytes=10240, backupCount=10)
     file_handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"))
     file_handler.setLevel(logging.INFO)
     app.logger.addHandler(file_handler)
     app.logger.setLevel(logging.INFO)
-    app.logger.info("Microblog startup")
+    app.logger.info("DevLog startup")
 # This is done to avoid circular imports. To keep Isort from moving this import
 # to the top, we need to add the isort:skip. So do not remove this or there will
 # be a circular import error.

@@ -136,3 +136,6 @@ monkeytype.sqlite3
 # Databases
 migrations/
 app.db
+
+# Logs
+logs/
