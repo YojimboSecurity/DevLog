@@ -27,9 +27,11 @@ Comming soon...
 ## Usages Examples
 
 comming soon...
+
 ## Running Tests
 
 coming soon...
+
 ## Tech Stack
 
 - [Python](https://www.python.org/)
@@ -42,6 +44,7 @@ coming soon...
 
 - [pyre-check](https://github.com/facebook/pyre-check)
 - [monkeytype](https://github.com/Instagram/MonkeyType)
+
 ## Documentation
 
 For more detailed information, please visit [the wiki](https://github.com/YojimboSecurity/DevLog/wiki).
@@ -49,9 +52,11 @@ For more detailed information, please visit [the wiki](https://github.com/Yojimb
 ## Install
 
 comming soon...
+
 ## Run locally
 
 comming soon...
+
 ## Acknowledgements
 
 - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
@@ -63,4 +68,4 @@ comming soon...
 
 ## Author
 
-  - [YojimboSecurity](https://github.com/YojimboSecurity)
+- [YojimboSecurity](https://github.com/YojimboSecurity)
