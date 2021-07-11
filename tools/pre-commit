@@ -58,3 +58,6 @@ do
     fi
 done
 echo "Done."
+
+# Apply changes
+git add *
