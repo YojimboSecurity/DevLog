@@ -2,6 +2,7 @@
 
 ![python version](https://img.shields.io/github/pipenv/locked/python-version/YojimboSecurity/DevLog)
 ![last commit](https://img.shields.io/github/last-commit/YojimboSecurity/DevLog)
+![build](https://img.shields.io/github/workflow/status/YojimboSecurity/DevLog/Python%20application)
 
 # Table of Contents
 
