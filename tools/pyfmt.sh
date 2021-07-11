@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Formatting..."
-for FILE in $(git status --short | cut -d" " -f3)
+for FILE in $(find . -type f -iname "*.py" | grep -v migrations)
 do
     if [[ "$FILE" =~ \.py$ ]]; then
     echo "Formatting $FILE"
