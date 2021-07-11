@@ -12,6 +12,10 @@ flask-sqlalchemy = "*" # I tried installing flask-sqlalchemy==2.0.0 but it cause
 flask-login = "*"
 install = "*"
 email-validator = "*"
+flask-mail = "*"
+pyjwt = "*"
+flask-bootstrap = "*"
+flask-moment = "*"
 
 [dev-packages]
 bandit = "*"
