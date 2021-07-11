@@ -1,6 +1,7 @@
 ![logo](./docs/log.jpg)
 
 ![python version](https://img.shields.io/github/pipenv/locked/python-version/YojimboSecurity/DevLog)
+![last commit](https://img.shields.io/github/last-commit/YojimboSecurity/DevLog)
 
 # Table of Contents
 
