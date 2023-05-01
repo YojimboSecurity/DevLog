@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "~=2.0.0"
+flask = "~=2.3.2"
 python-dotenv = "~=0.18.0"
 flask-wtf = "~=0.15.0"
 flask-migrate = "*" # I couldn't find a version
